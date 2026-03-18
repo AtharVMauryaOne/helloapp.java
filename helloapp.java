@@ -1,5 +1,8 @@
-public class HelloWorld {
+public class HelloName {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+
+        String name = (args.length > 0) ? args[0] : "User";
+        System.out.println("Hello " + name);
+
     }
 }
